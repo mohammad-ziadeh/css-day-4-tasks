@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(to right, red 0%, purple 100%);  
+}
+.mama {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  gap: 10px;
+}
+.box {
+  background-color: rgb(255, 111, 0);
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+.strange {
+  grid-column: 1/9;
+  background-color: rgb(255, 111, 0);
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+}

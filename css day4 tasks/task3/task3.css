@@ -1,0 +1,54 @@
+.main {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-areas:
+    "hd hd hd hd"
+    "sb sb nb nb"
+    "sb sb mn mn"
+    "ft ft ft ft";
+
+  text-align: center;
+  color: white;
+  gap: 10px;
+}
+.hd {
+  width: 100%;
+  background-color: rgb(255, 221, 0);
+  height: 100%;
+  grid-area: hd;
+  border-radius: 10px;
+}
+
+.sb {
+  width: 250px;
+  height: 100%;
+  background-color: rgb(255, 81, 0);
+
+  grid-area: sb;
+  border-radius: 10px;
+}
+.nb {
+  width: 100%;
+  background-color: rgb(0, 149, 255);
+  height: 100%;
+  grid-area: nb;
+  border-radius: 10px;
+}
+.mn {
+  width: 100%;
+  background-color: rgb(144, 146, 147);
+  height: 400px;
+  grid-area: mn;
+  border-radius: 10px;
+}
+.ft {
+  width: 100%;
+  background-color: rgb(4, 0, 28);
+  height: 100%;
+  grid-area: ft;
+  border-radius: 10px;
+}
+p {
+  text-align: start;
+  padding: 15px;
+}

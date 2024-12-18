@@ -1,0 +1,41 @@
+.mama {
+  display: grid;
+
+  grid-auto-rows: 200px 200px 200px;
+  grid-auto-columns: 400px 400px 200px;
+  grid-template-areas:
+    "lu ru ru"
+    "lu md rm"
+    "ld md rd";
+  gap: 10px;
+}
+.leftup {
+  grid-area: lu;
+  background-color: #0000ff;
+  border-radius: 10px;
+}
+.rightup {
+  grid-area: ru;
+  background-color: #1b1b44;
+  border-radius: 10px;
+}
+.middledown {
+  grid-area: md;
+  background-color: #b5ffc1;
+  border-radius: 10px;
+}
+.rightmiddle {
+  grid-area: rm;
+  background-color: #b5ffc1;
+  border-radius: 10px;
+}
+.leftdown {
+  grid-area: ld;
+  background-color: #b5b5ff;
+  border-radius: 10px;
+}
+.rightdown {
+  grid-area: rd;
+  background-color: #f34e78;
+  border-radius: 10px;
+}

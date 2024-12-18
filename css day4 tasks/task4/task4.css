@@ -1,0 +1,28 @@
+.main {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px;
+   width: 400px;
+}
+
+.one {
+  
+    width: auto;
+    height: auto;
+  }
+  .two {
+  
+    width: auto;
+    height: 100px;
+  }
+  .three {
+  
+    width: 300px;
+    height: auto;
+  }
+  
+  .four {
+  
+    width: auto;
+    height: auto;
+  }
