@@ -1,0 +1,104 @@
+.mom {
+  border: 1px solid black;
+  background-color: aliceblue;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(3, 33%);
+
+  justify-content: space-evenly;
+}
+
+/*######################## one ########################*/
+
+.main1 {
+  display: grid;
+  grid-template-columns: repeat(4, 24.5%);
+
+  justify-content: space-evenly;
+  padding: 1px;
+}
+/*######################## sub ########################*/
+
+.one {
+  background-color: rgb(205, 205, 205);
+  place-content: center center;
+  display: grid;
+  grid-template-columns: repeat(2, 47%);
+  grid-template-rows: repeat(2, 47%);
+  gap: 5px;
+}
+.one .sub1 {
+  background-color: rgb(140, 122, 158);
+}
+.one .sub2 {
+  background-color: rgb(140, 122, 158);
+}
+
+/*######################## one ########################*/
+
+/*######################## two ########################*/
+
+.main2 {
+  display: grid;
+  grid-template-columns: repeat(4, 24.5%);
+
+  justify-content: space-evenly;
+  padding: 1px;
+}
+/*######################## sub ########################*/
+
+.two {
+  background-color: rgb(205, 205, 205);
+  place-content: center center;
+  display: grid;
+  grid-template-columns: repeat(1, 97%);
+  grid-template-rows: repeat(2, 47%);
+
+  gap: 5px;
+}
+.two1 {
+  background-color: rgb(205, 205, 205);
+  place-content: center center;
+  display: grid;
+  grid-template-columns: repeat(2, 47%);
+  grid-template-rows: repeat(1, 97%);
+
+  gap: 5px;
+}
+.two .sub3 {
+  background-color: rgb(140, 122, 158);
+}
+.two1 .sub4 {
+  background-color: rgb(140, 122, 158);
+}
+
+/*######################## two ########################*/
+
+/*######################## three ########################*/
+
+.main3 {
+  display: grid;
+  grid-template-columns: repeat(4, 24.5%);
+  justify-content: space-evenly;
+  padding: 1px;
+}
+
+/*######################## subs ########################*/
+
+.three {
+  background-color: rgb(205, 205, 205);
+  place-content: center center;
+  display: grid;
+  grid-template-columns: repeat(2, 47%);
+  grid-template-rows: repeat(2, 47%);
+  gap: 5px;
+}
+.three .sub1 {
+  background-color: rgb(140, 122, 158);
+}
+.three .sub2 {
+  background-color: rgb(140, 122, 158);
+}
+/*######################## three ########################*/

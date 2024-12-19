@@ -1,0 +1,30 @@
+.mama {
+  display: grid;
+  border: 1px solid black;
+  width: 1050px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+
+  align-items: flex-start;
+}
+.baba {
+  border: 1px solid black;
+  width: 1025px;
+  height: 225px;
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+  grid-template-rows: repeat(2, 20px);
+  justify-content: space-around;
+  gap: 35px;
+}
+.son {
+  display: grid;
+  margin-top: 5px;
+  border: 1px solid rgb(164, 162, 173);
+  width: 80px;
+  height: 35px;
+  background-color: rgb(164, 162, 173);
+  place-content: center center;
+  color: white;
+}
